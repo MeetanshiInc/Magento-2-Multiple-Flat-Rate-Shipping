@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+			<flatrate1>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate1</model>
+                <name>Fixed</name>
+                <price>5.00</price>
+                <title>Flat Rate</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+				<infotext>flatrate2</infotext>
+                <handling_type>F</handling_type>
+			 </flatrate1>
+			 <flatrate2>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate2</model>
+                <name>Fixed 2</name>
+                <price>5.00</price>
+                <title>Flat Rate</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+				<infotext>flatrate2</infotext>
+                <handling_type>F</handling_type>
+			</flatrate2>
+			<flatrate3>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate3</model>
+                <name>Fixed 3</name>
+                <price>5.00</price>
+                <title>Flat Rate</title>
+				<infotext></infotext>
+                <type>I</type>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+                <handling_type>F</handling_type>
+            </flatrate3>
+			<flatrate4>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate4</model>
+                <name>Fixed 4</name>
+                <price>5.00</price>
+				<infotext></infotext>
+                <title>Flat Rate</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+                <handling_type>F</handling_type>
+            </flatrate4>
+			<flatrate5>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate5</model>
+                <name>Fixed 5</name>
+                <price>5.00</price>
+				<infotext></infotext>
+                <title>Flat Rate</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+                <handling_type>F</handling_type>
+			</flatrate5>
+			<flatrate6>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate6</model>
+                <name>Fixed 6</name>
+                <price>5.00</price>
+				<infotext></infotext>
+                <title>Flat Rate</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+                <handling_type>F</handling_type>
+			</flatrate6>
+			<flatrate7>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate7</model>
+                <name>Fixed 7</name>
+                <price>5.00</price>
+				<infotext></infotext>
+                <title>Flat Rate</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+                <handling_type>F</handling_type>
+			</flatrate7>
+			<flatrate8>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate8</model>
+                <name>Fixed 8</name>
+                <price>5.00</price>
+				<infotext></infotext>
+                <title>Flat Rate</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+                <handling_type>F</handling_type>
+			</flatrate8>
+			<flatrate9>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate9</model>
+                <name>Fixed 9</name>
+                <price>5.00</price>
+				<infotext></infotext>
+                <title>Flat Rate</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+                <handling_type>F</handling_type>
+			</flatrate9>
+			<flatrate10>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate10</model>
+                <name>Fixed 10</name>
+                <price>5.00</price>
+				<infotext></infotext>
+                <title>Flat Rate</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+                <handling_type>F</handling_type>
+			</flatrate10>
+        </carriers>
+    </default>
+</config>

@@ -1,0 +1,1 @@
+Magento 2 Multiple Flat Rate Shipping Extension allows Store Owner to add up to 10 Flat Rates based on various Shipping Prices and Conditions. For more information, visit: https://meetanshi.com/magento-2-multiple-flat-rate-shipping.html
