@@ -5,7 +5,7 @@
 			<flatrate1>
                 <active>0</active>
                 <sallowspecific>0</sallowspecific>
-                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate1</model>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate1</model>
                 <name>Fixed</name>
                 <price>5.00</price>
                 <title>Flat Rate</title>
@@ -17,7 +17,7 @@
 			 <flatrate2>
                 <active>0</active>
                 <sallowspecific>0</sallowspecific>
-                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate2</model>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate2</model>
                 <name>Fixed 2</name>
                 <price>5.00</price>
                 <title>Flat Rate</title>
@@ -29,7 +29,7 @@
 			<flatrate3>
                 <active>0</active>
                 <sallowspecific>0</sallowspecific>
-                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate3</model>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate3</model>
                 <name>Fixed 3</name>
                 <price>5.00</price>
                 <title>Flat Rate</title>
@@ -41,7 +41,7 @@
 			<flatrate4>
                 <active>0</active>
                 <sallowspecific>0</sallowspecific>
-                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate4</model>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate4</model>
                 <name>Fixed 4</name>
                 <price>5.00</price>
 				<infotext></infotext>
@@ -53,7 +53,7 @@
 			<flatrate5>
                 <active>0</active>
                 <sallowspecific>0</sallowspecific>
-                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate5</model>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate5</model>
                 <name>Fixed 5</name>
                 <price>5.00</price>
 				<infotext></infotext>
@@ -65,7 +65,7 @@
 			<flatrate6>
                 <active>0</active>
                 <sallowspecific>0</sallowspecific>
-                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate6</model>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate6</model>
                 <name>Fixed 6</name>
                 <price>5.00</price>
 				<infotext></infotext>
@@ -77,7 +77,7 @@
 			<flatrate7>
                 <active>0</active>
                 <sallowspecific>0</sallowspecific>
-                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate7</model>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate7</model>
                 <name>Fixed 7</name>
                 <price>5.00</price>
 				<infotext></infotext>
@@ -89,7 +89,7 @@
 			<flatrate8>
                 <active>0</active>
                 <sallowspecific>0</sallowspecific>
-                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate8</model>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate8</model>
                 <name>Fixed 8</name>
                 <price>5.00</price>
 				<infotext></infotext>
@@ -101,7 +101,7 @@
 			<flatrate9>
                 <active>0</active>
                 <sallowspecific>0</sallowspecific>
-                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate9</model>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate9</model>
                 <name>Fixed 9</name>
                 <price>5.00</price>
 				<infotext></infotext>
@@ -113,7 +113,7 @@
 			<flatrate10>
                 <active>0</active>
                 <sallowspecific>0</sallowspecific>
-                <model>Meetanshi\Flatshipping\Model\Carrier\Flatrate10</model>
+                <model>Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate10</model>
                 <name>Fixed 10</name>
                 <price>5.00</price>
 				<infotext></infotext>

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <virtualType name="Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate1"
+                 type="Meetanshi\Flatshipping\Model\Carrier\Flatrate">
+        <arguments>
+            <argument name="_code" xsi:type="string">flatrate1</argument>
+        </arguments>
+    </virtualType>
+    <virtualType name="Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate2"
+                 type="Meetanshi\Flatshipping\Model\Carrier\Flatrate">
+        <arguments>
+            <argument name="_code" xsi:type="string">flatrate2</argument>
+        </arguments>
+    </virtualType>
+    <virtualType name="Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate3"
+                 type="Meetanshi\Flatshipping\Model\Carrier\Flatrate">
+        <arguments>
+            <argument name="_code" xsi:type="string">flatrate3</argument>
+        </arguments>
+    </virtualType>
+    <virtualType name="Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate4"
+                 type="Meetanshi\Flatshipping\Model\Carrier\Flatrate">
+        <arguments>
+            <argument name="_code" xsi:type="string">flatrate4</argument>
+        </arguments>
+    </virtualType>
+    <virtualType name="Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate5"
+                 type="Meetanshi\Flatshipping\Model\Carrier\Flatrate">
+        <arguments>
+            <argument name="_code" xsi:type="string">flatrate5</argument>
+        </arguments>
+    </virtualType>
+    <virtualType name="Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate6"
+                 type="Meetanshi\Flatshipping\Model\Carrier\Flatrate">
+        <arguments>
+            <argument name="_code" xsi:type="string">flatrate6</argument>
+        </arguments>
+    </virtualType>
+    <virtualType name="Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate7"
+                 type="Meetanshi\Flatshipping\Model\Carrier\Flatrate">
+        <arguments>
+            <argument name="_code" xsi:type="string">flatrate7</argument>
+        </arguments>
+    </virtualType>
+    <virtualType name="Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate8"
+                 type="Meetanshi\Flatshipping\Model\Carrier\Flatrate">
+        <arguments>
+            <argument name="_code" xsi:type="string">flatrate8</argument>
+        </arguments>
+    </virtualType>
+    <virtualType name="Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate9"
+                 type="Meetanshi\Flatshipping\Model\Carrier\Flatrate">
+        <arguments>
+            <argument name="_code" xsi:type="string">flatrate9</argument>
+        </arguments>
+    </virtualType>
+    <virtualType name="Meetanshi\Flatshipping\Model\Carrier\Virtual\Flatrate10"
+                 type="Meetanshi\Flatshipping\Model\Carrier\Flatrate">
+        <arguments>
+            <argument name="_code" xsi:type="string">flatrate10</argument>
+        </arguments>
+    </virtualType>
+</config>
