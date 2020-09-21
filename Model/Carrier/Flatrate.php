@@ -1,8 +1,8 @@
 <?php
+
 namespace Meetanshi\Flatshipping\Model\Carrier;
 
 use Magento\Quote\Model\Quote\Address\RateRequest;
-use Magento\Shipping\Model\Rate\Result;
 use Magento\Shipping\Model\Carrier\AbstractCarrier;
 use Magento\Shipping\Model\Carrier\CarrierInterface;
 use Magento\Framework\App\Config\ScopeConfigInterface;
@@ -14,23 +14,55 @@ use Meetanshi\Flatshipping\Model\Carrier\Flatrate\ItemPriceCalculator;
 use Magento\Checkout\Model\Session;
 use Magento\Framework\App\State;
 
-class Flatrate2 extends AbstractCarrier implements CarrierInterface
+class Flatrate extends AbstractCarrier implements CarrierInterface
 {
-    protected $_code = 'flatrate2';
+    /**
+     * @var string
+     */
+    protected $_code;
+    /**
+     * @var bool
+     */
     protected $_isFixed = true;
+    /**
+     * @var ResultFactory
+     */
     protected $rateResultFactory;
+    /**
+     * @var MethodFactory
+     */
     protected $rateMethodFactory;
+    /**
+     * @var Session
+     */
     protected $session;
+    /**
+     * @var ItemPriceCalculator
+     */
     private $itemPriceCalculator;
+    /**
+     * @var State
+     */
     protected $state;
-     
-    public function __construct(ScopeConfigInterface $scopeConfig, ErrorFactory $rateErrorFactory, LoggerInterface $logger, ResultFactory $rateResultFactory, MethodFactory $rateMethodFactory, ItemPriceCalculator $itemPriceCalculator, Session $session, State $state, array $data = [])
-    {
+
+    public function __construct(
+        string $_code,
+        ScopeConfigInterface $scopeConfig,
+        ErrorFactory $rateErrorFactory,
+        LoggerInterface $logger,
+        ResultFactory $rateResultFactory,
+        MethodFactory $rateMethodFactory,
+        ItemPriceCalculator $itemPriceCalculator,
+        Session $session,
+        State $state,
+        array $data = []
+    ) {
         $this->rateResultFactory = $rateResultFactory;
         $this->rateMethodFactory = $rateMethodFactory;
         $this->session = $session;
         $this->state = $state;
         $this->itemPriceCalculator = $itemPriceCalculator;
+        $this->_code = $_code;
         parent::__construct($scopeConfig, $rateErrorFactory, $logger, $data);
     }
 
@@ -39,7 +71,7 @@ class Flatrate2 extends AbstractCarrier implements CarrierInterface
         if (!$this->getConfigFlag('active')) {
             return false;
         }
-        
+
         if ($this->getConfigFlag('for_admin')) {
             if ($this->state->getAreaCode() != 'adminhtml') {
                 return false;
@@ -48,18 +80,18 @@ class Flatrate2 extends AbstractCarrier implements CarrierInterface
 
         $freeBoxes = $this->getFreeBoxesCount($request);
         $this->setFreeBoxes($freeBoxes);
-        
+
         $result = $this->rateResultFactory->create();
-        
+
         $shippingPrice = $this->getShippingPrice($request, $freeBoxes);
-        
+
         if ($shippingPrice !== false) {
             $method = $this->createResultMethod($shippingPrice);
             $result->append($method);
         }
         return $result;
     }
-    
+
     private function getFreeBoxesCount(RateRequest $request)
     {
         $freeBoxes = 0;
@@ -78,7 +110,7 @@ class Flatrate2 extends AbstractCarrier implements CarrierInterface
         }
         return $freeBoxes;
     }
-    
+
     private function getShippingPrice(RateRequest $request, $freeBoxes)
     {
         $shippingPrice = false;
@@ -97,7 +129,7 @@ class Flatrate2 extends AbstractCarrier implements CarrierInterface
         if ($shippingPrice !== false && $request->getPackageQty() == $freeBoxes) {
             $shippingPrice = '0.00';
         }
-        
+
         if ($this->getConfigData('handling_type') == 'FI') { // Fixed - Per Item
             if ($request->getPackageQty() > 1) {
                 $onlyhandelfee = $shippingPrice - $onlyshipprice;
@@ -105,25 +137,25 @@ class Flatrate2 extends AbstractCarrier implements CarrierInterface
                 $shippingPrice = $shippingPrice + $feeadded;
             }
         }
-        
+
         if ((($this->getConfigData('min_amount') != '')
                 && ($request->getBaseSubtotalInclTax() >= $this->getConfigData('min_amount')))
-                && (($this->getConfigData('max_amount') != '')
+            && (($this->getConfigData('max_amount') != '')
                 && ($request->getBaseSubtotalInclTax() <= $this->getConfigData('max_amount')))) {
             $shippingPrice = '0.00';
         } elseif ((($this->getConfigData('min_amount') != '')
                 && ($request->getBaseSubtotalInclTax() >= $this->getConfigData('min_amount')))
-                && (($this->getConfigData('max_amount') == ''))) {
+            && (($this->getConfigData('max_amount') == ''))) {
             $shippingPrice = '0.00';
         } elseif ((($this->getConfigData('max_amount') != '')
                 && ($request->getBaseSubtotalInclTax() <= $this->getConfigData('max_amount')))
-                && (($this->getConfigData('min_amount') == ''))) {
+            && (($this->getConfigData('min_amount') == ''))) {
             $shippingPrice = '0.00';
         }
-        
+
         return $shippingPrice;
     }
-    
+
     protected function createResultMethod($shippingPrice)
     {
         $method = $this->rateMethodFactory->create();
@@ -141,7 +173,7 @@ class Flatrate2 extends AbstractCarrier implements CarrierInterface
 
         return $method;
     }
-    
+
     public function getAllowedMethods()
     {
         return [$this->getCarrierCode() => $this->getConfigData('name')];
