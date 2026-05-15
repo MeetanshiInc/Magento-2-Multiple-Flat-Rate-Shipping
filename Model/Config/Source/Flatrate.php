@@ -1,10 +1,21 @@
 <?php
+
 namespace Meetanshi\Flatshipping\Model\Config\Source;
 
-use Magento\Framework\Option\ArrayInterface;
+use Magento\Framework\Data\OptionSourceInterface;
 
-class Flatrate implements ArrayInterface
+/**
+ * Class Flatrate
+ *
+ * Source model for flat rate type options
+ */
+class Flatrate implements OptionSourceInterface
 {
+    /**
+     * Get option array
+     *
+     * @return array
+     */
     public function toOptionArray()
     {
         return [

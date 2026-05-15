@@ -1,11 +1,11 @@
 {
-    "name": "meetanshi/magento2-flatshipping",
-    "description": "Magento 2 Multiple Flat Rate Shipping by Meetanshi.com",
+    "name": "meetanshi/module-flatshipping",
+    "description": "Magento 2 Flat Rate Shipping",
     "require": {
-        "php": "~5.5.0|~5.6.0|~7.0.0|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2.0|~7.3.0"
+        "php": "~5.5.0|~5.6.0|~7.0.0|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2.0|^7.3.0|^7.4.0|^8.0.0|^8.1.0|^8.2.0|^8.3.0|^8.4.0"
     },
     "type": "magento2-module",
-    "version": "1.0.0",
+    "version": "1.1.1",
      "license": [
     	"OSL-3.0"
     ],
@@ -18,12 +18,12 @@
         }
     },
 	"support": {
-        "email": "support@meetanshi.com"        
+        "email": "help@meetanshi.com"
     },
     "authors": [
         {
-            "name": "Sanjay Jethva",
-            "email": "support@meetanshi.com",
+            "name": "Meetanshi",
+            "email": "help@meetanshi.com",
             "homepage": "https://meetanshi.com"
         }
     ]

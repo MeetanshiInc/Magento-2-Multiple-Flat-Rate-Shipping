@@ -1,14 +1,25 @@
 <?php
+
 namespace Meetanshi\Flatshipping\Model\Config\Source;
 
-use Magento\Framework\Option\ArrayInterface;
+use Magento\Framework\Data\OptionSourceInterface;
 
-class HandlingType implements ArrayInterface
+/**
+ * Class HandlingType
+ *
+ * Source model for handling type options
+ */
+class HandlingType implements OptionSourceInterface
 {
-    const HANDLING_TYPE_PERCENT = 'P';
-    const HANDLING_TYPE_FIXED = 'F';
-    const HANDLING_TYPE_FIXED_ITEM = 'FI';
-    
+    public const HANDLING_TYPE_PERCENT = 'P';
+    public const HANDLING_TYPE_FIXED = 'F';
+    public const HANDLING_TYPE_FIXED_ITEM = 'FI';
+
+    /**
+     * Get option array
+     *
+     * @return array
+     */
     public function toOptionArray()
     {
         return [

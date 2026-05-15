@@ -58,12 +58,12 @@
 					<depends><field id="active">1</field></depends>
                 </field>                
 				<field id="max_amount" translate="label" type="text" sortOrder="13" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Maximum Order Amount For Free Shipping</label>
+                    <label>Maximum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
 				<field id="min_amount" translate="label" type="text" sortOrder="14" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Minimum Order Amount For Free Shipping</label>
+                    <label>Minimum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
@@ -133,12 +133,12 @@
 					<depends><field id="active">1</field></depends>
                 </field>                
 				<field id="max_amount" translate="label" type="text" sortOrder="13" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Maximum Order Amount For Free Shipping</label>
+                    <label>Maximum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
 				<field id="min_amount" translate="label" type="text" sortOrder="14" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Minimum Order Amount For Free Shipping</label>
+                    <label>Minimum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
@@ -208,12 +208,12 @@
 					<depends><field id="active">1</field></depends>
                 </field>                
 				<field id="max_amount" translate="label" type="text" sortOrder="13" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Maximum Order Amount For Free Shipping</label>
+                    <label>Maximum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
 				<field id="min_amount" translate="label" type="text" sortOrder="14" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Minimum Order Amount For Free Shipping</label>
+                    <label>Minimum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
@@ -283,12 +283,12 @@
 					<depends><field id="active">1</field></depends>
                 </field>                
 				<field id="max_amount" translate="label" type="text" sortOrder="13" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Maximum Order Amount For Free Shipping</label>
+                    <label>Maximum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
 				<field id="min_amount" translate="label" type="text" sortOrder="14" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Minimum Order Amount For Free Shipping</label>
+                    <label>Minimum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
@@ -358,12 +358,12 @@
 					<depends><field id="active">1</field></depends>
                 </field>                
 				<field id="max_amount" translate="label" type="text" sortOrder="13" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Maximum Order Amount For Free Shipping</label>
+                    <label>Maximum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
 				<field id="min_amount" translate="label" type="text" sortOrder="14" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Minimum Order Amount For Free Shipping</label>
+                    <label>Minimum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
@@ -433,12 +433,12 @@
 					<depends><field id="active">1</field></depends>
                 </field>                
 				<field id="max_amount" translate="label" type="text" sortOrder="13" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Maximum Order Amount For Free Shipping</label>
+                    <label>Maximum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
 				<field id="min_amount" translate="label" type="text" sortOrder="14" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Minimum Order Amount For Free Shipping</label>
+                    <label>Minimum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
@@ -508,12 +508,12 @@
 					<depends><field id="active">1</field></depends>
                 </field>                
 				<field id="max_amount" translate="label" type="text" sortOrder="13" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Maximum Order Amount For Free Shipping</label>
+                    <label>Maximum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
 				<field id="min_amount" translate="label" type="text" sortOrder="14" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Minimum Order Amount For Free Shipping</label>
+                    <label>Minimum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
@@ -583,12 +583,12 @@
 					<depends><field id="active">1</field></depends>
                 </field>                
 				<field id="max_amount" translate="label" type="text" sortOrder="13" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Maximum Order Amount For Free Shipping</label>
+                    <label>Maximum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
 				<field id="min_amount" translate="label" type="text" sortOrder="14" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Minimum Order Amount For Free Shipping</label>
+                    <label>Minimum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
@@ -658,12 +658,12 @@
 					<depends><field id="active">1</field></depends>
                 </field>                
 				<field id="max_amount" translate="label" type="text" sortOrder="13" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Maximum Order Amount For Free Shipping</label>
+                    <label>Maximum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
 				<field id="min_amount" translate="label" type="text" sortOrder="14" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Minimum Order Amount For Free Shipping</label>
+                    <label>Minimum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
@@ -733,12 +733,12 @@
 					<depends><field id="active">1</field></depends>
                 </field>                
 				<field id="max_amount" translate="label" type="text" sortOrder="13" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Maximum Order Amount For Free Shipping</label>
+                    <label>Maximum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
 				<field id="min_amount" translate="label" type="text" sortOrder="14" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
-                    <label>Minimum Order Amount For Free Shipping</label>
+                    <label>Minimum Order Amount</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 					<depends><field id="active">1</field></depends>
                 </field>
